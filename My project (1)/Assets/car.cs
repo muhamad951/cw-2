@@ -4,26 +4,30 @@ using UnityEngine;
 
 public class car : MonoBehaviour
 {
-    string hero name="aisha";
-int hero height=150;
-int hero age=15;
-string hero super power = "flying";
-    string villain name="lulu";
-int villain height=155;
-int villain age=19;
-string villain super power = "laser eyes";
+    string heroName = "muhamad man";
+    float heroHeight = 1.85f;
+    int heroAge = 17;
+    string heroSuperPower = "powered gun";
+
+    string villianName = "asmaa";
+    float villianHeight = 1.89f;
+    int villianAge = 31;
+    string villianSuperPower = "superhuman strength";
 
     // Start is called before the first frame update
     void Start()
     {
-        int ageDifference = hero age + villain age;
-        print("hero name is" + hero name + "hero age is" + hero age + "hero height is" + hero height + "hero super power" + hero super power);
-        print("villain Name" + villain Name + "villain height" + villain height + "villain age" + villain age + "villain super power" + villain super power);
-        print("age difference is" + ageDifference);
-        heroHeight = +5
-  print(hero height);
-        villainSuperPower = "none";
-        print("villainSuperPower after" + villainSuperPower);
+        int ageDifference = villianAge - heroAge;
+
+        print(" the hero's name is " + heroName + " his age is " + heroAge);
+        print(" his height is " + heroHeight + "and his superpower is " + heroSuperPower);
+
+        print(" the villians name is" + villianName + " his age is " + villianAge);
+        print("his height is " + villianHeight + " and his superPower is " + villianSuperPower);
+
+        print("and the age difference between the hero and villian is " + ageDifference);
+
+        
 
     }
 
